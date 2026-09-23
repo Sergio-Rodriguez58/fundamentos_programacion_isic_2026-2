@@ -1,0 +1,52 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+15
+totalDescargado
+3
+0.0
+7
+NumArch
+1
+0
+9
+1
+24
+totalDescargado <= 100.0
+4
+1
+48
+'Cual es el tamaño del archivo a descargar(MB)?'
+5
+1
+13
+tamanoArchivo
+6
+2
+15
+totalDescargado
+31
+totalDescargado + tamanoArchivo
+7
+NumArch
+11
+NumArch + 1
+11
+4
+1
+28
+'Cuota alcanzada o superada'
+4
+1
+39
+'La cantidad de archivos fue ', numArch
+4
+1
+49
+'El total descargado fue ', totalDescargado, 'MB'
+1

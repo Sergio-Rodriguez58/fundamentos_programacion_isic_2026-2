@@ -1,0 +1,136 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+totalMB
+1
+0
+8
+totalPet
+1
+0
+4
+1
+40
+'Ingrese la cantidad de servidores (N):'
+5
+1
+1
+N
+8
+1
+1
+i
+1
+1
+1
+1
+1
+N
+1
+1
+1
+6
+2
+13
+cargaServidor
+1
+0
+8
+peticion
+1
+1
+9
+1
+36
+cargaServidor < 50 AND peticion != 0
+4
+1
+76
+'Servidor ', i, ' - Ingrese MB de la peticion (0 para cambiar de servidor):'
+5
+1
+8
+peticion
+7
+0
+1
+12
+peticion > 0
+13
+7
+0
+1
+30
+cargaServidor + peticion <= 50
+4
+1
+47
+'Peticion rechazada. Excede el limite de 50 MB'
+13
+6
+3
+13
+cargaServidor
+24
+cargaServidor + peticion
+7
+totalMB
+18
+totalMB + peticion
+8
+totalPet
+12
+totalPet + 1
+4
+1
+70
+'Peticion aceptada. Carga actual del servidor: ', cargaServidor, ' MB'
+13
+13
+11
+6
+1
+13
+servidores(i)
+13
+cargaServidor
+10
+6
+1
+8
+promedio
+11
+totalMB / N
+4
+1
+114
+'REPORTE FINAL  Total MB: ', totalMB, ' | Total Peticiones: ', totalPet, ' | Promedio MB por servidor: ', promedio
+4
+1
+26
+'CARGA FINAL POR SERVIDOR'
+8
+1
+1
+k
+1
+1
+1
+1
+1
+N
+1
+1
+1
+4
+1
+42
+'Servidor ', k, ': ', servidores(k), ' MB'
+10
+1
